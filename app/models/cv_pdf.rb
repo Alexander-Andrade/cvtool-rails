@@ -1,6 +1,7 @@
 require "render_anywhere"
 
 # JSON.parse(File.new(Rails.root.join('public', 'data.json').to_s).read)
+# --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in
 
 class CvPdf
   include RenderAnywhere
@@ -10,8 +11,12 @@ class CvPdf
   end
 
   def to_pdf
-    puts as_html
-    kit = PDFKit.new(as_html, page_size: 'A4')
+    kit = PDFKit.new(
+        as_html,
+        page_size: 'A4',
+        viewport_size: '1024x768'
+    )
+
     kit.to_file("#{Rails.root}/public/cv.pdf")
   end
 
