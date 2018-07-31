@@ -5,10 +5,7 @@ class HomeController < ApplicationController
 
     respond_to do |format|
       format.pdf { send_cv_pdf }
-
-      # if Rails.env.development?
-      #   format.html { render_cv_html }
-      # end
+      format.html { render_cv_html }
     end
   end
 
