@@ -1,0 +1,26 @@
+{
+  "title": "Andrey, Senior ROR Developer",
+  "position": "Senior Ruby on Rails Developer",
+  "location": "Minsk, Belarus",
+  "summary": "2+ years of software development experience",
+  "education": "2009-2014 Belarusian National Technical University, \n INFORMATION TECHNOLOGIES AND ROBOTICS FACULTY.",
+  "languages": "English – Upper-Intermediate",
+  "projects": [
+    {
+      "name": "Assessment Gathering Platform",
+      "period": "February 2017 – current",
+      "role": "Senior Developer",
+      "description": "The goal is to create psychometric software that gathers survey data and \n analyzes it with extremely complex and customizable scoring methodologies.",
+      "technologies": "Ruby, JavaScript, React, Redux, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Nginx/Passenger, ActionCable, WebSocket."
+    },
+    {
+      "name": "Social platform for photographers",
+      "period": "December 2017 – February 2017",
+      "role": "Senior Developer",
+      "description": "The goal is to create platform for photographer where they can sell their pictures.",
+      "technologies": "Ruby, JavaScript, React, Redux, Graphql, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Nginx/Passenger"
+    }
+  ],
+  "skills_matrix": [
+  ]
+}

@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: rails_dev
+  password: 00b33db1
+  pool: 5
+  host: localhost
+
+development:
+  <<: *default
+  database: cvtool_development
+
+test:
+  <<: *default
+  database: cvtool_test
+
+production:
+  <<: *default
+  database: cvtool_development
