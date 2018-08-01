@@ -13,10 +13,9 @@ class CvPdf
   def to_pdf
     kit = PDFKit.new(
         as_html,
-        page_size: 'A4',
-        viewport_size: '1024x768'
+        :page_size => 'A4'
     )
-
+    # kit.stylesheets << "#{Rails.root}/public/stylesheets/application.css"
     kit.to_file("#{Rails.root}/public/cv.pdf")
   end
 
