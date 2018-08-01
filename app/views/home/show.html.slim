@@ -1,0 +1,77 @@
+.container.cv
+
+  .row.cv-header
+
+    .col-xs-4.dark-side
+      =  image_tag("logo.svg", size: "256x128")
+      hr.hr-left
+
+    .col-xs-8.light-side
+      span.logo-right
+        | CV
+      br
+      span.description
+        = cv["title"]
+      hr.hr-right
+
+  .row.cv-body
+
+    .col-xs-4.dark-side
+      .block
+        .block-title
+          | Summary
+        .block-body
+          = simple_format(cv["summary"])
+      .block
+        .block-title
+          | Education
+        .block-body
+          = simple_format(cv["education"])
+      .block
+        .block-title
+          | Languages
+        .block-body
+          = simple_format(cv["languages"])
+
+    .col-xs-8.light-side
+      .row
+        .col-xs-4.field-name
+          |  Position
+        .col-xs-8
+          = cv["position"]
+      .row
+        .col-xs-4.field-name
+          |  Location
+        .col-xs-8
+          = cv["location"]
+      .projects-title
+        | Projects
+
+      - cv["projects"].each do |project|
+        .block
+          .block-title
+            = project["name"]
+          / hr.project
+          .horisontal-delim
+          .row
+            .col-xs-4.field-name
+              | Period
+            .col-xs-8
+              = project["period"]
+          .row
+            .col-xs-4.field-name
+              | Role
+            .col-xs-8
+              = project["role"]
+          .row
+            .col-xs-4.field-name
+              | Description
+            .col-xs-8
+              = project["description"]
+          .row
+            .col-xs-4.field-name
+              | Technologies
+            .col-xs-8
+              = project["technologies"]
+
+

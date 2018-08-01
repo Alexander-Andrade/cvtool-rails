@@ -19,7 +19,7 @@ class HomeController < ApplicationController
   end
 
   def render_cv_html
-    render template: "home/show", layout: 'cv', locals: { cv: @cv }
+    render template: "home/show", layout: 'cv', locals: {cv: @cv }
   end
 
 end
