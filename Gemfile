@@ -40,6 +40,8 @@ gem 'prawn'
 gem 'pdfkit'
 gem 'render_anywhere'
 gem 'wkhtmltopdf-binary'
+gem 'wicked_pdf'
+
 
 gem 'slim-rails'
 

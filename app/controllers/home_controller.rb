@@ -4,7 +4,10 @@ class HomeController < ApplicationController
     @cv = JSON.parse(File.new(Rails.root.join('public', 'data.json').to_s).read)
 
     respond_to do |format|
-      format.pdf { send_cv_pdf }
+      format.pdf do
+        send_cv_pdf
+        # render :pdf => "show", :layout => 'cv.html.erb', locals: { cv: @cv }
+      end
       format.html { render_cv_html }
     end
   end
