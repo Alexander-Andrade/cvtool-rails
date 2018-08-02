@@ -1,13 +1,13 @@
 .row.cv-header
 
-  .col-xs-4.dark-side
+  .col-xs-4.dark-side[style="background: #1C355B;padding-right: 40px"]
     =  wicked_pdf_image_tag("logo.svg", size: "256x128")
-    hr.hr-left
+    hr.hr-left[style="border-color: rgb(124, 175, 221);margin-left: 30px;margin-right: 30px;"]
 
-  .col-xs-8.light-side
-    span.logo-right
+  .col-xs-8.light-side[style="margin-top: 35px;"]
+    span.logo-right[style="color:rgb(120, 173, 220);font-size: 2.25em;font-weight: 300;padding-left: 20px"]
       | CV
     br
-    span.description
+    span.description[style="font-size: 1.5em;font-weight: 700;padding-left: 20px"]
       = cv["title"]
-    hr.hr-right
+    hr.hr-right[style="margin-top: 38px;border-color: rgb(124, 175, 221);margin-left: 20px;margin-right: 30px;"]

@@ -21,11 +21,10 @@ class CvPdf
           :margin_bottom => '30mm',
           :margin_left => '10mm',
           :margin_right => '10mm',
-          :margin_top => '30mm',
+          :margin_top => '40mm',
       )
       
       cv = Tempfile.new(['cv', '.pdf'])
-      # kit.to_file("#{Rails.root}/public/cv.pdf")
       kit.to_file(cv.path)
     ensure
       # header.unlink

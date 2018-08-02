@@ -19,6 +19,34 @@
       "role": "Senior Developer",
       "description": "The goal is to create platform for photographer where they can sell their pictures.",
       "technologies": "Ruby, JavaScript, React, Redux, Graphql, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Nginx/Passenger"
+    },
+    {
+      "name": "E-commerce app for renting boats",
+      "period": "October 2017 – December 2017",
+      "role": "Senior Developer",
+      "description": "The goal is to create platform that will allow users to rent boats in South America.",
+      "technologies": "Ruby, JavaScript, React, Redux, Graphql, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Nginx/Passenger"
+    },
+    {
+      "name": "Social platform for US University Alumni",
+      "period": "August 2017 – October 2017",
+      "role": "Senior Developer",
+      "description": "The goal is to create mobiles applications for university graduates. Platform will allow graduates to take part in different quizzes, search friends and have chat with them.",
+      "technologies": "Ruby, JavaScript, Vue, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Ubuntu Server 16.04, Nginx/Passenger, ActionCable, WebSocket."
+    },
+    {
+      "name": "E-Sports platform",
+      "period": "May 2017– August 2017",
+      "role": "Senior Developer",
+      "description": "The goal is to create a web platform for eSports gamers. Platform will serve as an aggregator for gamers who are inspired to play competitive to raise the bar of their skill by betting money on the matches",
+      "technologies": "Ruby, JavaScript, Ruby on Rails 5, PostgreSQL, Redis, Capistrano, Ubuntu Server 16.04, Nginx/Passenger."
+    },
+    {
+      "name": "Intelligent exercise system (IoT)",
+      "period": "August 2016 – April 2017",
+      "role": "Senior Developer",
+      "description": "Application tracks signals from machine sensors (IoT). Sensors send information about different indicators. App monitor user performance and provide feedback to ensure correct exercise motion is performed by the user during exercise.",
+      "technologies": "Ruby, JavaScript, Ruby on Rails 4.2, PostgreSQL, Capistrano, Redis, Elastic search engine."
     }
   ],
   "skills_matrix": [
