@@ -20,12 +20,12 @@
           = simple_format(cv["languages"])
 
     .col-xs-8.light-side
-      .row
+      .row.field
         .col-xs-4.field-name
           |  Position
         .col-xs-8
           = cv["position"]
-      .row
+      .row.field
         .col-xs-4.field-name
           |  Location
         .col-xs-8
@@ -39,25 +39,28 @@
             = project["name"]
           / hr.project
           .horisontal-delim
-          .row
+          .row.field
             .col-xs-4.field-name
               | Period
             .col-xs-8
               = project["period"]
-          .row
+          .row.field
             .col-xs-4.field-name
               | Role
             .col-xs-8
               = project["role"]
-          .row
+          .row.field
             .col-xs-4.field-name
               | Description
             .col-xs-8
               = project["description"]
-          .row
+          .row.field
             .col-xs-4.field-name
               | Technologies
             .col-xs-8
               = project["technologies"]
-
+      
+      .skills-matrix-title  
+        | Skills Matrix
+      
 

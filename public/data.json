@@ -50,5 +50,156 @@
     }
   ],
   "skills_matrix": [
+    {
+      "title": "OPERATING SYSTEMS",
+      "list":[
+        {
+          "name": "MS Windows",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "Linux (Ubuntu)",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "MacOS X",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    },
+    {
+      "title": "PROGRAMMING LANGUAGES",
+      "list":[
+        {
+          "name": "Ruby",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "JavaScript",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "AngularJS",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "HTML/DHTML",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "SQL",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    },
+    {
+      "title": "PROJECT MANAGEMENT / CVS TOOLS",
+      "list":[
+        {
+          "name": "JIRA",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "SVN",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "Git",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    },
+    {
+      "title": "TECHNOLOGIES / FRAMEWORK",
+      "list":[
+        {
+          "name": "Ruby on Rails",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "JQuery",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "Bootstrap",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "Ajax",
+          "experience": "5",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    },
+    {
+      "title": "DATABASESK",
+      "list":[
+        {
+          "name": "MySQL",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "PostgreSQL",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    },
+    {
+      "title": "SERVERS",
+      "list":[
+        {
+          "name": "Nginx",
+          "experience": "8",
+          "level": "Advanced",
+          "last_used_year": "2017"
+        },
+        {
+          "name": "Unicorn",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        },
+        {
+          "name": "Passenger",
+          "experience": "6",
+          "level": "Advanced",
+          "last_used_year": "2018"
+        }
+      ]
+    }
   ]
+  
 }

@@ -12,7 +12,9 @@
 
     .block-title {
       font-size: 1em;
+      line-height: 2em;
       font-weight: 600;
+      padding-top: 10px; 
     }
 
   }
@@ -88,10 +90,13 @@
       padding-left: 30px;
       padding-right: 30px;
 
-
-      .field-name {
-        color: #C0C0C0;
-        font-weight: 700;
+      .field {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        .field-name {
+          color: #C0C0C0;
+          font-weight: 700;
+        }
       }
 
       .horisontal-delim {
@@ -100,6 +105,13 @@
         background-color: rgb(192, 192, 192);
         color: rgb(192, 192, 192);
         height: 2px;
+      }
+      
+      .skills-matrix-title {
+        font-size: 1em;
+        line-height: 2em;
+        font-weight: 600;
+        padding-top: 10px; 
       }
 
     }
