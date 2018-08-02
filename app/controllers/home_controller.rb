@@ -12,10 +12,16 @@ class HomeController < ApplicationController
   private
 
   def send_cv_pdf
-    send_file CvPdf.new(@cv).to_pdf,
-              filename: "cv.pdf",
-              type: "application/pdf",
-              disposition: "inline"
+    begin
+      cv_pdf = CvPdf.new(@cv).to_pdf
+      # send_file cv_pdf,
+      #           filename: "cv.pdf",
+      #           type: "application/pdf",
+      #           disposition: "inline"
+      send_file cv_pdf, filename: 'cv.pdf', type: 'application/pdf', disposition: 'inline'
+    ensure
+      # cv_pdf.unlink
+    end
   end
 
   def render_cv_html

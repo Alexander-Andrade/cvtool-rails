@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
 
+gem 'prawn'
 gem 'pdfkit'
 gem 'render_anywhere'
 gem 'wkhtmltopdf-binary'
