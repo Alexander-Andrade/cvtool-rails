@@ -59,8 +59,41 @@
               | Technologies
             .col-xs-8
               = project["technologies"]
-      
-      .skills-matrix-title  
+
+      .skills-matrix-title
         | Skills Matrix
-      
+        table.table.table-bordered
+          thead
+            tr
+              th.align-text-top
+                | Professional Skills
+              th
+                | Experience,
+                br
+                | in years
+              th
+                | Level
+              th
+                | Last used,
+                br
+                | year
+          tbody
+            - cv["skills_matrix"].each do |group|
+              tr
+                td.text-uppercase.skills-matrix-group[colspan="4"]
+                  = group["title"]
+              - group["list"].each do |skill|
+                tr
+                  td
+                    = skill["name"]
+                  td
+                    = skill["experience"]
+                  td
+                    = skill["level"]
+                  td
+                    = skill["last_used_year"]
+
+
+
+
 

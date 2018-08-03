@@ -90,6 +90,19 @@
       padding-left: 30px;
       padding-right: 30px;
 
+      .table {
+        background-color: #F2F2F2;
+        border: 2px solid #ffffff;
+      }
+      .table > thead > tr > th {
+        vertical-align: top;
+      }
+
+      td, th {
+        font-weight: normal;
+        border: 2px solid #ffffff;
+      }
+
       .field {
         padding-top: 0.5em;
         padding-bottom: 0.5em;
@@ -112,6 +125,10 @@
         line-height: 2em;
         font-weight: 600;
         padding-top: 10px; 
+      }
+
+      .skills-matrix-group {
+        font-weight: bold;
       }
 
     }
