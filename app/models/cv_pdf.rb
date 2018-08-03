@@ -22,8 +22,12 @@ class CvPdf
           :margin_left => '10mm',
           :margin_right => '10mm',
           :margin_top => '40mm'
-          # :print_media_type => true
       )
+
+      body = Tempfile.new(['body', '.html'])
+      body.write(cv_body)
+      body.close
+      body
 
       cv = Tempfile.new(['cv', '.pdf'])
       kit.to_file(cv.path)
