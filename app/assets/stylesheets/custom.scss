@@ -1,3 +1,15 @@
+.keep-together {
+  page-break-inside: avoid !important;
+}
+
+.break-before {
+  page-break-before: always !important;
+}
+
+.break-after {
+  page-break-after: always !important;
+}
+
 .cv {
 
   .row-eq-height {
@@ -6,7 +18,6 @@
     display: -ms-flexbox;
     display:         flex;
   }
-
 
   .block {
 
@@ -94,6 +105,7 @@
         background-color: #F2F2F2;
         border: 2px solid #ffffff;
       }
+      
       .table > thead > tr > th {
         vertical-align: top;
       }
@@ -102,6 +114,10 @@
         font-weight: normal;
         border: 2px solid #ffffff;
       }
+
+      thead { display: table-header-group }
+      tfoot { display: table-row-group }
+      tr { page-break-inside: avoid }
 
       .field {
         padding-top: 0.5em;

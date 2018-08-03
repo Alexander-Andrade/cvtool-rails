@@ -21,9 +21,10 @@ class CvPdf
           :margin_bottom => '30mm',
           :margin_left => '10mm',
           :margin_right => '10mm',
-          :margin_top => '40mm',
+          :margin_top => '40mm'
+          # :print_media_type => true
       )
-      
+
       cv = Tempfile.new(['cv', '.pdf'])
       kit.to_file(cv.path)
     ensure

@@ -2,10 +2,7 @@
 <html>
 <head>
   <title>CV</title>
-  <style>
-    <%= raw(Rails.application.assets.find_asset('application.scss').to_s) %>
-  </style>
-  
+  <%= wicked_pdf_stylesheet_link_tag "application", :media => "all" %>
 </head>
 <body>
 <%= yield %>
