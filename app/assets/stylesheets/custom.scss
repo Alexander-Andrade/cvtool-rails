@@ -37,15 +37,18 @@
   }
 
   .cv-header {
+    border-style: solid;
+    border-width: 1px;
 
     .dark-side {
       background: #1C355B;
+      //background:-webkit-linear-gradient(left, #225D91, #1C355B);
       padding-left: 0px;
       padding-right: 0px;
     }
 
     .light-side {
-      margin-top: 35px;
+      margin-top: 65px ;
       padding-left: 30px;
       padding-right: 0px;
 
@@ -78,12 +81,17 @@
       //border: 0;
       //height: 1px;
       //background-image: linear-gradient(to right, rgba(124, 175, 221, 0.75), rgba(124, 175, 221, 0));
+      //background:-webkit-linear-gradient(right, rgba(124, 175, 221, 0.75), rgba(124, 175, 221, 0));
     }
 
   }
 
   .cv-body {
+    border-style: solid;
+    border-width: 1px;
+
     .dark-side {
+      //background:-webkit-linear-gradient(left, #225D91, #1C355B);
       //background: linear-gradient(#1C355B, #225D91, #1C355B);
       background: #1C355B;
       padding-left: 30px;
