@@ -21,7 +21,7 @@ class CvPdf
           :margin_bottom => '30mm',
           :margin_left => '10mm',
           :margin_right => '10mm',
-          :margin_top => '40mm'
+          :margin_top => '45mm'
       )
 
       body = Tempfile.new(['body', '.html'])
